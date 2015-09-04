@@ -8,8 +8,9 @@ body {
   margin-bottom: 20px;
 }
 
-.navbar {
-	color: #28A4C9;
+.navbar { 
+    background-image: none;
+    color: #28A4C9;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
