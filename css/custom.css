@@ -35,6 +35,39 @@ body {
   height: 500px;
 }
 
+/* Menu */
 
+.rm-content dl{
+    margin: 0;
+}
+
+.rm-content dl dt,
+.rm-content dl dd{
+    display: block;
+    margin: 0;
+}
+
+.rm-content dl dt {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    clear:both;
+}
+
+.rm-content dl dt div.title{
+    float:left
+}
+
+.rm-content dl dt div.price{
+    float:right;
+}
+
+.rm-content dl dd {
+    clear:both;
+    font-size: 13px;
+    padding: 0 5px 15px;
+    line-height: 12px;
+    color: #C99944;
+}
 
 
