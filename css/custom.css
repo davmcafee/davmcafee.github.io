@@ -247,7 +247,7 @@ a.rm-button-open:hover {
 .rm-content dl dd {
 	font-size: 13px;
 	padding: 4px 5px 15px;
-	line-height: 30px;
+	line-height: 15px;
 	color: #333;
 }
 
@@ -598,4 +598,4 @@ a.rm-viewdetails:hover,
 		transform: rotateY(0deg);
 		transition-delay: 0s;
 	}
-}
+}}
