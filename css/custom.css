@@ -52,9 +52,9 @@ body {
 }
 
 .rm-container {
-	width: 100%;
-	height: auto;
-	max-width: 460px;
+	width: 33%;
+	height: 700px;
+	max-width: 370px;
 	margin: 0 auto 40px auto;
 	position: relative;
 	-webkit-perspective: 1600px;
@@ -65,10 +65,10 @@ body {
 .rm-wrapper,
 .rm-wrapper > div {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	left: 0;
 	top: 0;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -152,7 +152,7 @@ body {
 }
 
 .rm-content {
-	padding: 40px;
+	padding: 20px;
 }
 
 .rm-logo, 
@@ -520,13 +520,13 @@ a.rm-viewdetails:hover,
 
 /* Media Queries */
 
-@media screen and (max-width: 0px) {
+@media screen and (max-width: 111110px) {
 	.rm-container {
 		height: 800px;
 	}
 }
 
-@media screen and (max-width: 0px) {
+@media screen and (max-width: 11960px) {
 	.rm-container {
 		width: 100%;
 		height: auto;
@@ -598,4 +598,4 @@ a.rm-viewdetails:hover,
 		transform: rotateY(0deg);
 		transition-delay: 0s;
 	}
-}}
+}
