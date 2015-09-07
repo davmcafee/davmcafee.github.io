@@ -40,7 +40,8 @@ body {
   background-color: #777;
 }
 .carousel-inner > .item > img {
-  position: center;
+  position: absolute;
+  margin: 0 auto;
   top: 0;
   left: 0;
   min-width: 75%;
