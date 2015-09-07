@@ -24,25 +24,27 @@ body {
 
 /* Declare heights because of positioning of img element */
 
-.carousel .item {
-    background:#F9F9F9;
-    border:1px solid #E0E0E0;
-    overflow:hidden;
-    margin-bottom:1em;
-    margin-top:1em;
-    padding:5px;
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
 }
-.carousel-inner > .item > img {
-    border: 1px solid #DDDDDD;
-    float: left;
-    margin: 0pt 3px;
-    padding: 2px;
-    height: none;
-    width:  100%;
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
 }
 
-.carousel-inner > .item > img:hover {
-    border: 1px solid #000000;
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 75%;
+  height: 500px;
 }
 
 /*calender */
