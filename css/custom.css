@@ -25,21 +25,24 @@ body {
 /* Declare heights because of positioning of img element */
 
 .carousel .item {
-    background:#e64c6c;
-    border:.5px solid #e7c1af;
+    background:#F9F9F9;
+    border:1px solid #E0E0E0;
     overflow:hidden;
-    padding:3px;
-    min-height: 500px; 
+    margin-bottom:1em;
+    margin-top:1em;
+    padding:5px;
 }
 .carousel-inner > .item > img {
-    float:right;
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin: 0pt 3px;
     padding: 2px;
-    padding-left: 3px;
-    min-width: 500px;
+    height: none;
+    width:  100%;
 }
 
 .carousel-inner > .item > img:hover {
-    border: 1px solid #e7c1af;
+    border: 1px solid #000000;
 }
 
 /*calender */
